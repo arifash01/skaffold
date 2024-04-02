@@ -39,7 +39,7 @@ executionConfigs:
   - POSTDEPLOY
   privatePool:
     workerPool: projects/arifash-test/locations/us-central1/workerPools/my-first-privatepool
-    serviceAccount: 724329584752-compute@developer.gserviceaccount.com
+    serviceAccount: gcloud@arifash-test.iam.gserviceaccount.com
 ---
 apiVersion: deploy.cloud.google.com/v1
 kind: Target
@@ -58,4 +58,4 @@ executionConfigs:
   - POSTDEPLOY
   privatePool:
     workerPool: projects/arifash-test/locations/us-central1/workerPools/my-first-privatepool
-    serviceAccount: 724329584752-compute@developer.gserviceaccount.com
+    serviceAccount: gcloud@arifash-test.iam.gserviceaccount.com
